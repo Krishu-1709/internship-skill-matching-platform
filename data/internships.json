@@ -1,0 +1,1302 @@
+[
+  {
+    "id": 1,
+    "title": "Backend Developer Intern",
+    "company": "TechNova",
+    "domain": "Backend Development",
+    "required_skills": [
+      "Python",
+      "FastAPI",
+      "SQL",
+      "Git",
+      "REST APIs"
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Cybersecurity Intern",
+    "company": "SecureTech",
+    "domain": "Cybersecurity",
+    "required_skills": [
+      "Python",
+      "Linux",
+      "Networking",
+      "OWASP",
+      "Wireshark"
+    ]
+  },
+  {
+    "id": 3,
+    "title": "C++ Software Development Intern",
+    "company": "CodeForge",
+    "domain": "Software Development",
+    "required_skills": [
+      "C++",
+      "Data Structures and Algorithms",
+      "OOP",
+      "STL",
+      "Git"
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Data Analytics Intern",
+    "company": "DataWorks",
+    "domain": "Data Analytics",
+    "required_skills": [
+      "Python",
+      "SQL",
+      "Excel",
+      "Statistics",
+      "Data Visualization"
+    ]
+  },
+  {
+    "id": 5,
+    "title": "DevOps Intern",
+    "company": "CloudCore",
+    "domain": "DevOps",
+    "required_skills": [
+      "Linux",
+      "Git",
+      "Docker",
+      "CI/CD",
+      "AWS"
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Junior Java Developer Intern",
+    "company": "Vanguard Byte",
+    "domain": "Java Development",
+    "required_skills": [
+      "Java",
+      "Spring Boot",
+      "SQL",
+      "OOP",
+      "Git"
+    ]
+  },
+  {
+    "id": 7,
+    "title": "React Frontend Intern",
+    "company": "PixelCraft Studios",
+    "domain": "Frontend Development",
+    "required_skills": [
+      "JavaScript",
+      "React",
+      "HTML5",
+      "CSS3",
+      "Git"
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Full Stack Web Intern",
+    "company": "OmniSphere Solutions",
+    "domain": "Full Stack Development",
+    "required_skills": [
+      "JavaScript",
+      "TypeScript",
+      "Node.js",
+      "React",
+      "PostgreSQL"
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Data Science Research Intern",
+    "company": "AlphaMetrics Lab",
+    "domain": "Data Science",
+    "required_skills": [
+      "Python",
+      "Pandas",
+      "Scikit-Learn",
+      "Statistics",
+      "SQL"
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Machine Learning Engineering Intern",
+    "company": "NeuralGrid AI",
+    "domain": "Machine Learning",
+    "required_skills": [
+      "Python",
+      "PyTorch",
+      "Machine Learning",
+      "Docker",
+      "Git"
+    ]
+  },
+  {
+    "id": 11,
+    "title": "Cloud Infrastructure Intern",
+    "company": "StratusPoint",
+    "domain": "Cloud Engineering",
+    "required_skills": [
+      "AWS",
+      "Terraform",
+      "Linux",
+      "Networking",
+      "Docker"
+    ]
+  },
+  {
+    "id": 12,
+    "title": "Network Defense Intern",
+    "company": "FortressWave",
+    "domain": "Network Security",
+    "required_skills": [
+      "Networking",
+      "Firewalls",
+      "Wireshark",
+      "Linux",
+      "VPN Architecture"
+    ]
+  },
+  {
+    "id": 13,
+    "title": "Android Application Intern",
+    "company": "MobileVista",
+    "domain": "Android Development",
+    "required_skills": [
+      "Kotlin",
+      "Android SDK",
+      "Java",
+      "REST APIs",
+      "Git"
+    ]
+  },
+  {
+    "id": 14,
+    "title": "iOS Engineering Intern",
+    "company": "AppFlow Systems",
+    "domain": "Mobile Development",
+    "required_skills": [
+      "Swift",
+      "iOS SDK",
+      "Xcode",
+      "REST APIs",
+      "Git"
+    ]
+  },
+  {
+    "id": 15,
+    "title": "QA Automation Intern",
+    "company": "TestMatrix",
+    "domain": "QA / Software Testing",
+    "required_skills": [
+      "Selenium",
+      "Python",
+      "TestNG",
+      "Git",
+      "CI/CD"
+    ]
+  },
+  {
+    "id": 16,
+    "title": "Database Engineering Intern",
+    "company": "ApexData Labs",
+    "domain": "Database Administration",
+    "required_skills": [
+      "SQL",
+      "PostgreSQL",
+      "Database Optimization",
+      "Linux",
+      "Bash Scripting"
+    ]
+  },
+  {
+    "id": 17,
+    "title": "Product Design Intern",
+    "company": "AuraInterface",
+    "domain": "UI/UX Design",
+    "required_skills": [
+      "Figma",
+      "Wireframing",
+      "Prototyping",
+      "User Research",
+      "Design Systems"
+    ]
+  },
+  {
+    "id": 18,
+    "title": "C++ Systems Intern",
+    "company": "AeroDynamics Tech",
+    "domain": "C++ Development",
+    "required_skills": [
+      "C++",
+      "Linux",
+      "Memory Management",
+      "Multithreading",
+      "Git"
+    ]
+  },
+  {
+    "id": 19,
+    "title": "Python Scripting & Backend Intern",
+    "company": "ByteVibe Media",
+    "domain": "Python Development",
+    "required_skills": [
+      "Python",
+      "Django",
+      "SQL",
+      "REST APIs",
+      "Linux"
+    ]
+  },
+  {
+    "id": 20,
+    "title": "AI Integration Intern",
+    "company": "CognitivePulse",
+    "domain": "AI Engineering",
+    "required_skills": [
+      "Python",
+      "Large Language Models",
+      "LangChain",
+      "REST APIs",
+      "Git"
+    ]
+  },
+  {
+    "id": 21,
+    "title": "Node.js Platform Intern",
+    "company": "SynapseFlow",
+    "domain": "Backend Development",
+    "required_skills": [
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "REST APIs",
+      "Git"
+    ]
+  },
+  {
+    "id": 22,
+    "title": "Vue.js Web Developer Intern",
+    "company": "KromaTech",
+    "domain": "Frontend Development",
+    "required_skills": [
+      "JavaScript",
+      "Vue.js",
+      "HTML5",
+      "CSS3",
+      "REST APIs"
+    ]
+  },
+  {
+    "id": 23,
+    "title": "General Software Development Intern",
+    "company": "Horizon Logic",
+    "domain": "Software Development",
+    "required_skills": [
+      "Java",
+      "Data Structures and Algorithms",
+      "Git",
+      "OOP",
+      "Problem Solving"
+    ]
+  },
+  {
+    "id": 24,
+    "title": "Business Intelligence Intern",
+    "company": "ClearMetrics",
+    "domain": "Data Analytics",
+    "required_skills": [
+      "SQL",
+      "Power BI",
+      "Excel",
+      "Data Warehousing",
+      "Data Visualization"
+    ]
+  },
+  {
+    "id": 25,
+    "title": "SOC Security Intern",
+    "company": "ShieldPoint Cyber",
+    "domain": "Cybersecurity",
+    "required_skills": [
+      "SIEM",
+      "Networking",
+      "Linux",
+      "Wireshark",
+      "Security"
+    ]
+  },
+  {
+    "id": 26,
+    "title": "Kubernetes & DevOps Intern",
+    "company": "ScaleFleet",
+    "domain": "DevOps",
+    "required_skills": [
+      "Kubernetes",
+      "Docker",
+      "Linux",
+      "CI/CD",
+      "Bash Scripting"
+    ]
+  },
+  {
+    "id": 27,
+    "title": "Azure Cloud Operations Intern",
+    "company": "SkyWard Tech",
+    "domain": "Cloud Engineering",
+    "required_skills": [
+      "Azure",
+      "Terraform",
+      "Linux",
+      "PowerShell",
+      "Networking"
+    ]
+  },
+  {
+    "id": 28,
+    "title": "Cross-Platform Mobile Intern",
+    "company": "OrbitApps",
+    "domain": "Mobile Development",
+    "required_skills": [
+      "Flutter",
+      "Dart",
+      "REST APIs",
+      "Mobile UI Design",
+      "Git"
+    ]
+  },
+  {
+    "id": 29,
+    "title": "Predictive Analytics Intern",
+    "company": "Infinitum Insights",
+    "domain": "Data Science",
+    "required_skills": [
+      "Python",
+      "Machine Learning",
+      "Statistics",
+      "Pandas",
+      "Git"
+    ]
+  },
+  {
+    "id": 30,
+    "title": "Computer Vision Intern",
+    "company": "OpticPulse AI",
+    "domain": "AI Engineering",
+    "required_skills": [
+      "Python",
+      "OpenCV",
+      "PyTorch",
+      "Deep Learning",
+      "C++"
+    ]
+  },
+  {
+    "id": 31,
+    "title": "Angular Frontend Intern",
+    "company": "WebSpectrum",
+    "domain": "Frontend Development",
+    "required_skills": [
+      "TypeScript",
+      "Angular",
+      "RxJS",
+      "HTML5",
+      "CSS3"
+    ]
+  },
+  {
+    "id": 32,
+    "title": "MERN Stack Intern",
+    "company": "FullStack Lab",
+    "domain": "Full Stack Development",
+    "required_skills": [
+      "React",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "JavaScript"
+    ]
+  },
+  {
+    "id": 33,
+    "title": "Microservices Backend Intern",
+    "company": "IronClad Software",
+    "domain": "Backend Development",
+    "required_skills": [
+      "Java",
+      "Spring Boot",
+      "Docker",
+      "REST APIs",
+      "SQL"
+    ]
+  },
+  {
+    "id": 34,
+    "title": "Application Security Intern",
+    "company": "RedLock Networks",
+    "domain": "Cybersecurity",
+    "required_skills": [
+      "OWASP",
+      "Application Security",
+      "Python",
+      "Git",
+      "Cryptography"
+    ]
+  },
+  {
+    "id": 35,
+    "title": "Performance QA Intern",
+    "company": "StressTest Systems",
+    "domain": "QA / Software Testing",
+    "required_skills": [
+      "JMeter",
+      "Linux",
+      "SQL",
+      "Python",
+      "Performance Testing"
+    ]
+  },
+  {
+    "id": 36,
+    "title": "MySQL Database Admin Intern",
+    "company": "RowCraft Data",
+    "domain": "Database Administration",
+    "required_skills": [
+      "SQL",
+      "MySQL",
+      "Linux",
+      "Database Optimization",
+      "Database Backup/Recovery"
+    ]
+  },
+  {
+    "id": 37,
+    "title": "UX Research Intern",
+    "company": "HumanCentric Labs",
+    "domain": "UI/UX Design",
+    "required_skills": [
+      "User Research",
+      "Usability Testing",
+      "Wireframing",
+      "Figma",
+      "User Interviews"
+    ]
+  },
+  {
+    "id": 38,
+    "title": "Deep Learning Intern",
+    "company": "TensorForge",
+    "domain": "Machine Learning",
+    "required_skills": [
+      "Python",
+      "TensorFlow",
+      "Deep Learning",
+      "Machine Learning",
+      "Git"
+    ]
+  },
+  {
+    "id": 39,
+    "title": "Network Operations Intern",
+    "company": "PacketWave",
+    "domain": "Network Security",
+    "required_skills": [
+      "Networking",
+      "TCP/IP",
+      "Wireshark",
+      "Linux",
+      "Routing and Switching"
+    ]
+  },
+  {
+    "id": 40,
+    "title": "Site Reliability Engineering Intern",
+    "company": "PulseEngine Ops",
+    "domain": "DevOps",
+    "required_skills": [
+      "Linux",
+      "Python",
+      "Monitoring/Prometheus",
+      "Docker",
+      "Networking"
+    ]
+  },
+  {
+    "id": 41,
+    "title": "Embedded Systems Intern",
+    "company": "CircuitWorks",
+    "domain": "C++ Development",
+    "required_skills": [
+      "C++",
+      "C",
+      "Linux",
+      "RTOS",
+      "Hardware Protocols"
+    ]
+  },
+  {
+    "id": 42,
+    "title": "API Testing Intern",
+    "company": "EndpointHQ",
+    "domain": "QA / Software Testing",
+    "required_skills": [
+      "Postman",
+      "REST APIs",
+      "JavaScript",
+      "JSON",
+      "Git"
+    ]
+  },
+  {
+    "id": 43,
+    "title": "Data Engineering Pipeline Intern",
+    "company": "FlowStream Data",
+    "domain": "Data Science",
+    "required_skills": [
+      "Python",
+      "SQL",
+      "Apache Spark",
+      "ETL",
+      "Kafka"
+    ]
+  },
+  {
+    "id": 44,
+    "title": "Django Web Intern",
+    "company": "TimberByte",
+    "domain": "Python Development",
+    "required_skills": [
+      "Python",
+      "Django",
+      "PostgreSQL",
+      "HTML5",
+      "Git"
+    ]
+  },
+  {
+    "id": 45,
+    "title": "Enterprise Java Systems Intern",
+    "company": "Metropolis Core",
+    "domain": "Java Development",
+    "required_skills": [
+      "Java",
+      "Hibernate",
+      "SQL",
+      "Data Structures and Algorithms",
+      "Git"
+    ]
+  },
+  {
+    "id": 46,
+    "title": "NLP Engineering Intern",
+    "company": "LexiWave AI",
+    "domain": "AI Engineering",
+    "required_skills": [
+      "Python",
+      "Natural Language Processing",
+      "Transformers",
+      "PyTorch",
+      "Git"
+    ]
+  },
+  {
+    "id": 47,
+    "title": "Penetration Testing Intern",
+    "company": "ShadowByte Security",
+    "domain": "Cybersecurity",
+    "required_skills": [
+      "Kali Linux",
+      "OWASP",
+      "Burp Suite",
+      "Metasploit",
+      "Networking"
+    ]
+  },
+  {
+    "id": 48,
+    "title": "Tableau Reporting Intern",
+    "company": "VizCraft Analytics",
+    "domain": "Data Analytics",
+    "required_skills": [
+      "Tableau",
+      "SQL",
+      "Excel",
+      "Data Visualization",
+      "Statistics"
+    ]
+  },
+  {
+    "id": 49,
+    "title": "React Native Mobile Intern",
+    "company": "PocketTech",
+    "domain": "Mobile Development",
+    "required_skills": [
+      "React Native",
+      "JavaScript",
+      "TypeScript",
+      "REST APIs",
+      "Git"
+    ]
+  },
+  {
+    "id": 50,
+    "title": "NoSQL Database Intern",
+    "company": "ShardCore",
+    "domain": "Database Administration",
+    "required_skills": [
+      "MongoDB",
+      "Redis",
+      "NoSQL",
+      "Linux",
+      "Docker"
+    ]
+  },
+  {
+    "id": 51,
+    "title": "Cloud Security Intern",
+    "company": "SkyShield",
+    "domain": "Cloud Engineering",
+    "required_skills": [
+      "AWS",
+      "Security",
+      "Terraform",
+      "Networking",
+      "Linux"
+    ]
+  },
+  {
+    "id": 52,
+    "title": "Algorithms & Optimization Intern",
+    "company": "QuantEdge Logic",
+    "domain": "Software Development",
+    "required_skills": [
+      "Data Structures and Algorithms",
+      "C++",
+      "Problem Solving",
+      "Git",
+      "Linux"
+    ]
+  },
+  {
+    "id": 53,
+    "title": "UI Components Intern",
+    "company": "FormFactor Design",
+    "domain": "UI/UX Design",
+    "required_skills": [
+      "Figma",
+      "Design Systems",
+      "Wireframing",
+      "HTML5",
+      "CSS3"
+    ]
+  },
+  {
+    "id": 54,
+    "title": "MLOps Automation Intern",
+    "company": "ModelOps Hub",
+    "domain": "Machine Learning",
+    "required_skills": [
+      "Python",
+      "Docker",
+      "Kubernetes",
+      "MLflow",
+      "CI/CD"
+    ]
+  },
+  {
+    "id": 55,
+    "title": "Go Backend Intern",
+    "company": "GigaSpeed Systems",
+    "domain": "Backend Development",
+    "required_skills": [
+      "Docker",
+      "SQL",
+      "REST APIs",
+      "Git",
+      "Linux"
+    ]
+  },
+  {
+    "id": 56,
+    "title": "Web Performance Intern",
+    "company": "FastRender Labs",
+    "domain": "Frontend Development",
+    "required_skills": [
+      "JavaScript",
+      "TypeScript",
+      "React",
+      "HTML5",
+      "CSS3"
+    ]
+  },
+  {
+    "id": 57,
+    "title": "Network Infrastructure Intern",
+    "company": "CoreRouter Networks",
+    "domain": "Network Security",
+    "required_skills": [
+      "Networking",
+      "Cisco IOS",
+      "Routing and Switching",
+      "TCP/IP",
+      "Wireshark"
+    ]
+  },
+  {
+    "id": 58,
+    "title": "CI/CD Pipeline Intern",
+    "company": "ShipFast Dynamics",
+    "domain": "DevOps",
+    "required_skills": [
+      "CI/CD",
+      "Git",
+      "Jenkins",
+      "Docker",
+      "Bash Scripting"
+    ]
+  },
+  {
+    "id": 59,
+    "title": "Manual & Exploratory QA Intern",
+    "company": "QualitySphere",
+    "domain": "QA / Software Testing",
+    "required_skills": [
+      "Manual Testing",
+      "Jira",
+      "SQL",
+      "Git",
+      "REST APIs"
+    ]
+  },
+  {
+    "id": 60,
+    "title": "Python Data Automation Intern",
+    "company": "ScriptFlow Tech",
+    "domain": "Python Development",
+    "required_skills": [
+      "Python",
+      "Bash Scripting",
+      "Linux",
+      "REST APIs",
+      "Git"
+    ]
+  },
+  {
+    "id": 61,
+    "title": "SQL Reporting Intern",
+    "company": "QueryCraft Analytics",
+    "domain": "Database Administration",
+    "required_skills": [
+      "SQL",
+      "Stored Procedures",
+      "PostgreSQL",
+      "ETL",
+      "Git"
+    ]
+  },
+  {
+    "id": 62,
+    "title": "Native Android Intern",
+    "company": "DroidPulse",
+    "domain": "Android Development",
+    "required_skills": [
+      "Kotlin",
+      "Android SDK",
+      "Data Structures and Algorithms",
+      "Git",
+      "OOP"
+    ]
+  },
+  {
+    "id": 63,
+    "title": "Full Stack Cloud Intern",
+    "company": "AetherStack",
+    "domain": "Full Stack Development",
+    "required_skills": [
+      "TypeScript",
+      "React",
+      "Node.js",
+      "AWS",
+      "Docker"
+    ]
+  },
+  {
+    "id": 64,
+    "title": "Statistical Analyst Intern",
+    "company": "Statix Research",
+    "domain": "Data Analytics",
+    "required_skills": [
+      "Python",
+      "Statistics",
+      "SQL",
+      "Excel",
+      "Pandas"
+    ]
+  },
+  {
+    "id": 65,
+    "title": "Game Engine C++ Intern",
+    "company": "PolygonForge Games",
+    "domain": "C++ Development",
+    "required_skills": [
+      "C++",
+      "Data Structures and Algorithms",
+      "Linear Algebra",
+      "Memory Management",
+      "Git"
+    ]
+  },
+  {
+    "id": 66,
+    "title": "Java Cloud Microservices Intern",
+    "company": "BlueAnchor Tech",
+    "domain": "Java Development",
+    "required_skills": [
+      "Java",
+      "Spring Boot",
+      "Microservices",
+      "Docker",
+      "AWS"
+    ]
+  },
+  {
+    "id": 67,
+    "title": "Generative AI Engineering Intern",
+    "company": "GenSynth Labs",
+    "domain": "AI Engineering",
+    "required_skills": [
+      "Python",
+      "Large Language Models",
+      "Deep Learning",
+      "PyTorch",
+      "Prompt Engineering"
+    ]
+  },
+  {
+    "id": 68,
+    "title": "Threat Detection Intern",
+    "company": "SentinelGate",
+    "domain": "Cybersecurity",
+    "required_skills": [
+      "SIEM",
+      "Threat Detection",
+      "Linux",
+      "Python",
+      "Networking"
+    ]
+  },
+  {
+    "id": 69,
+    "title": "Cloud Migration Intern",
+    "company": "CloudHaven",
+    "domain": "Cloud Engineering",
+    "required_skills": [
+      "AWS",
+      "Terraform",
+      "Cloud Architecture",
+      "Linux",
+      "Docker"
+    ]
+  },
+  {
+    "id": 70,
+    "title": "Interaction Design Intern",
+    "company": "EchoDesign Studio",
+    "domain": "UI/UX Design",
+    "required_skills": [
+      "Figma",
+      "Prototyping",
+      "Information Architecture",
+      "User Research",
+      "Wireframing"
+    ]
+  },
+  {
+    "id": 71,
+    "title": "REST API Development Intern",
+    "company": "ConnexSystems",
+    "domain": "Backend Development",
+    "required_skills": [
+      "Python",
+      "FastAPI",
+      "PostgreSQL",
+      "Docker",
+      "Git"
+    ]
+  },
+  {
+    "id": 72,
+    "title": "Web UI Engineering Intern",
+    "company": "LuminaWeb",
+    "domain": "Frontend Development",
+    "required_skills": [
+      "JavaScript",
+      "React",
+      "TypeScript",
+      "CSS3",
+      "REST APIs"
+    ]
+  },
+  {
+    "id": 73,
+    "title": "Systems Reliability Intern",
+    "company": "Kinetix Ops",
+    "domain": "DevOps",
+    "required_skills": [
+      "Linux",
+      "Docker",
+      "Python",
+      "Git",
+      "Bash Scripting"
+    ]
+  },
+  {
+    "id": 74,
+    "title": "Data Visualization Analyst Intern",
+    "company": "ChartPulse Media",
+    "domain": "Data Analytics",
+    "required_skills": [
+      "Power BI",
+      "SQL",
+      "Excel",
+      "Data Visualization",
+      "Communication"
+    ]
+  },
+  {
+    "id": 75,
+    "title": "AI Modeling Intern",
+    "company": "SynapticMind Labs",
+    "domain": "Machine Learning",
+    "required_skills": [
+      "Python",
+      "Scikit-Learn",
+      "Machine Learning",
+      "Pandas",
+      "Statistics"
+    ]
+  },
+  {
+    "id": 76,
+    "title": "Vulnerability Assessment Intern",
+    "company": "SecureNet Dynamics",
+    "domain": "Cybersecurity",
+    "required_skills": [
+      "Vulnerability Assessment",
+      "OWASP",
+      "Linux",
+      "Networking",
+      "Security"
+    ]
+  },
+  {
+    "id": 77,
+    "title": "Object-Oriented Software Intern",
+    "company": "PinnacleCode",
+    "domain": "Software Development",
+    "required_skills": [
+      "Java",
+      "C++",
+      "OOP",
+      "Data Structures and Algorithms",
+      "Git"
+    ]
+  },
+  {
+    "id": 78,
+    "title": "Firewall and Gateway Intern",
+    "company": "PacketSentry",
+    "domain": "Network Security",
+    "required_skills": [
+      "Firewalls",
+      "Networking",
+      "Linux",
+      "VPN Architecture",
+      "Wireshark"
+    ]
+  },
+  {
+    "id": 79,
+    "title": "Mobile Interface Developer Intern",
+    "company": "TouchStone Apps",
+    "domain": "Mobile Development",
+    "required_skills": [
+      "Flutter",
+      "Dart",
+      "Mobile UI Design",
+      "Git",
+      "REST APIs"
+    ]
+  },
+  {
+    "id": 80,
+    "title": "Database Tuning Intern",
+    "company": "QueryMatrix Labs",
+    "domain": "Database Administration",
+    "required_skills": [
+      "SQL",
+      "PostgreSQL",
+      "Database Optimization",
+      "Linux",
+      "Docker"
+    ]
+  },
+  {
+    "id": 81,
+    "title": "Test Automation Pipeline Intern",
+    "company": "VerifyNow Systems",
+    "domain": "QA / Software Testing",
+    "required_skills": [
+      "Selenium",
+      "Java",
+      "TestNG",
+      "CI/CD",
+      "Git"
+    ]
+  },
+  {
+    "id": 82,
+    "title": "FastAPI Services Intern",
+    "company": "VelocityCloud",
+    "domain": "Python Development",
+    "required_skills": [
+      "Python",
+      "FastAPI",
+      "Docker",
+      "SQL",
+      "Git"
+    ]
+  },
+  {
+    "id": 83,
+    "title": "Java Spring Services Intern",
+    "company": "NexusEnterprise",
+    "domain": "Java Development",
+    "required_skills": [
+      "Java",
+      "Spring Boot",
+      "SQL",
+      "REST APIs",
+      "Git"
+    ]
+  },
+  {
+    "id": 84,
+    "title": "Design Systems Intern",
+    "company": "CanvasWorks",
+    "domain": "UI/UX Design",
+    "required_skills": [
+      "Figma",
+      "Design Systems",
+      "Prototyping",
+      "Wireframing",
+      "HTML5"
+    ]
+  },
+  {
+    "id": 85,
+    "title": "Kubernetes Infrastructure Intern",
+    "company": "PodCluster Tech",
+    "domain": "DevOps",
+    "required_skills": [
+      "Kubernetes",
+      "Docker",
+      "Linux",
+      "Git",
+      "Terraform"
+    ]
+  },
+  {
+    "id": 86,
+    "title": "Enterprise Cloud Intern",
+    "company": "TitanCloud Solutions",
+    "domain": "Cloud Engineering",
+    "required_skills": [
+      "AWS",
+      "Azure",
+      "Terraform",
+      "Networking",
+      "Linux"
+    ]
+  },
+  {
+    "id": 87,
+    "title": "Full Stack Prototype Intern",
+    "company": "LaunchPad Digital",
+    "domain": "Full Stack Development",
+    "required_skills": [
+      "JavaScript",
+      "React",
+      "Python",
+      "SQL",
+      "Git"
+    ]
+  },
+  {
+    "id": 88,
+    "title": "Predictive ML Intern",
+    "company": "DataSphere AI",
+    "domain": "Data Science",
+    "required_skills": [
+      "Python",
+      "Machine Learning",
+      "Scikit-Learn",
+      "SQL",
+      "Statistics"
+    ]
+  },
+  {
+    "id": 89,
+    "title": "C++ High-Performance Intern",
+    "company": "QuantumSpeed Tech",
+    "domain": "C++ Development",
+    "required_skills": [
+      "C++",
+      "Multithreading",
+      "Linux",
+      "Data Structures and Algorithms",
+      "Git"
+    ]
+  },
+  {
+    "id": 90,
+    "title": "Network Packet Analyst Intern",
+    "company": "NetTracer Systems",
+    "domain": "Network Security",
+    "required_skills": [
+      "Wireshark",
+      "Networking",
+      "Linux",
+      "TCP/IP",
+      "Python"
+    ]
+  },
+  {
+    "id": 91,
+    "title": "iOS Feature Development Intern",
+    "company": "SwiftWave Apps",
+    "domain": "Mobile Development",
+    "required_skills": [
+      "Swift",
+      "iOS SDK",
+      "Xcode",
+      "Git",
+      "REST APIs"
+    ]
+  },
+  {
+    "id": 92,
+    "title": "End-to-End Testing Intern",
+    "company": "TrueTest Labs",
+    "domain": "QA / Software Testing",
+    "required_skills": [
+      "Python",
+      "Selenium",
+      "SQL",
+      "Git",
+      "REST APIs"
+    ]
+  },
+  {
+    "id": 93,
+    "title": "PostgreSQL Administrator Intern",
+    "company": "CoreRelational",
+    "domain": "Database Administration",
+    "required_skills": [
+      "PostgreSQL",
+      "SQL",
+      "Linux",
+      "Bash Scripting",
+      "Database Optimization"
+    ]
+  },
+  {
+    "id": 94,
+    "title": "Usability Testing Intern",
+    "company": "InsightUX",
+    "domain": "UI/UX Design",
+    "required_skills": [
+      "Usability Testing",
+      "User Research",
+      "Figma",
+      "Wireframing",
+      "Prototyping"
+    ]
+  },
+  {
+    "id": 95,
+    "title": "Python ETL Intern",
+    "company": "DataRoute Pipeline",
+    "domain": "Python Development",
+    "required_skills": [
+      "Python",
+      "SQL",
+      "ETL",
+      "Git",
+      "Linux"
+    ]
+  },
+  {
+    "id": 96,
+    "title": "Neural Networks Intern",
+    "company": "BrainWave Computing",
+    "domain": "AI Engineering",
+    "required_skills": [
+      "Python",
+      "PyTorch",
+      "Deep Learning",
+      "Machine Learning",
+      "Linux"
+    ]
+  },
+  {
+    "id": 97,
+    "title": "Modern Frontend Intern",
+    "company": "NextGen UI",
+    "domain": "Frontend Development",
+    "required_skills": [
+      "JavaScript",
+      "TypeScript",
+      "React",
+      "HTML5",
+      "Git"
+    ]
+  },
+  {
+    "id": 98,
+    "title": "Core Java Software Intern",
+    "company": "SolidState Systems",
+    "domain": "Java Development",
+    "required_skills": [
+      "Java",
+      "Data Structures and Algorithms",
+      "OOP",
+      "SQL",
+      "Git"
+    ]
+  },
+  {
+    "id": 99,
+    "title": "Defensive Security Intern",
+    "company": "CyberBastion",
+    "domain": "Cybersecurity",
+    "required_skills": [
+      "Linux",
+      "Networking",
+      "OWASP",
+      "Python",
+      "Vulnerability Assessment"
+    ]
+  },
+  {
+    "id": 100,
+    "title": "Full Stack Platform Intern",
+    "company": "OmniLayer Technologies",
+    "domain": "Full Stack Development",
+    "required_skills": [
+      "JavaScript",
+      "React",
+      "Node.js",
+      "PostgreSQL",
+      "Docker"
+    ]
+  }
+]

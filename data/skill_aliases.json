@@ -1,0 +1,382 @@
+{
+  "python": "Python",
+  "py": "Python",
+  "python3": "Python",
+  "python 3": "Python",
+  "python programming": "Python",
+  "python language": "Python",
+  "python dev": "Python",
+
+  "java": "Java",
+  "java programming": "Java",
+  "java language": "Java",
+  "java dev": "Java",
+  "core java": "Java",
+  "java se": "Java",
+
+  "c++": "C++",
+  "cpp": "C++",
+  "c plus plus": "C++",
+  "c++ programming": "C++",
+  "cpp programming": "C++",
+  "c plus plus programming": "C++",
+  "cplusplus": "C++",
+  "modern c++": "C++",
+
+  "c#": "C#",
+  "csharp": "C#",
+  "c sharp": "C#",
+  "c# programming": "C#",
+  "c#.net": "C#",
+  "c sharp programming": "C#",
+
+  "javascript": "JavaScript",
+  "js": "JavaScript",
+  "javascript programming": "JavaScript",
+  "ecmascript": "JavaScript",
+  "es6": "JavaScript",
+  "vanilla js": "JavaScript",
+  "vanilla javascript": "JavaScript",
+
+  "typescript": "TypeScript",
+  "ts": "TypeScript",
+  "typescript programming": "TypeScript",
+
+  "html": "HTML",
+  "html5": "HTML",
+  "html programming": "HTML",
+
+  "css": "CSS",
+  "css3": "CSS",
+  "cascading style sheets": "CSS",
+
+  "react": "React",
+  "reactjs": "React",
+  "react.js": "React",
+  "react js": "React",
+  "react framework": "React",
+
+  "angular": "Angular",
+  "angularjs": "Angular",
+  "angular js": "Angular",
+  "angular.js": "Angular",
+  "angular 2+": "Angular",
+
+  "vue.js": "Vue.js",
+  "vue": "Vue.js",
+  "vuejs": "Vue.js",
+  "vue js": "Vue.js",
+
+  "node.js": "Node.js",
+  "node": "Node.js",
+  "nodejs": "Node.js",
+  "node js": "Node.js",
+
+  "express.js": "Express.js",
+  "express": "Express.js",
+  "expressjs": "Express.js",
+  "express js": "Express.js",
+
+  "fastapi": "FastAPI",
+  "fast api": "FastAPI",
+  "fastapi python": "FastAPI",
+
+  "django": "Django",
+  "django framework": "Django",
+  "python django": "Django",
+
+  "flask": "Flask",
+  "flask framework": "Flask",
+  "python flask": "Flask",
+
+  "rest apis": "REST APIs",
+  "rest": "REST APIs",
+  "rest api": "REST APIs",
+  "restful api": "REST APIs",
+  "restful apis": "REST APIs",
+  "rest api development": "REST APIs",
+  "restful web services": "REST APIs",
+  "rest web services": "REST APIs",
+
+  "graphql": "GraphQL",
+  "graphql api": "GraphQL",
+  "graphql apis": "GraphQL",
+
+  "sql": "SQL",
+  "sql programming": "SQL",
+  "structured query language": "SQL",
+  "sql queries": "SQL",
+
+  "mysql": "MySQL",
+  "mysql database": "MySQL",
+  "mysql db": "MySQL",
+
+  "postgresql": "PostgreSQL",
+  "postgres": "PostgreSQL",
+  "postgresql database": "PostgreSQL",
+  "postgres db": "PostgreSQL",
+  "pgsql": "PostgreSQL",
+
+  "mongodb": "MongoDB",
+  "mongo": "MongoDB",
+  "mongodb database": "MongoDB",
+  "mongo db": "MongoDB",
+
+  "redis": "Redis",
+  "redis cache": "Redis",
+  "redis db": "Redis",
+
+  "git": "Git",
+  "git scm": "Git",
+  "git version control": "Git",
+  "version control": "Git",
+
+  "github": "GitHub",
+  "github.com": "GitHub",
+  "github platform": "GitHub",
+
+  "docker": "Docker",
+  "docker containers": "Docker",
+  "docker containerization": "Docker",
+  "containerization": "Docker",
+
+  "kubernetes": "Kubernetes",
+  "k8s": "Kubernetes",
+  "kube": "Kubernetes",
+  "kubernetes orchestration": "Kubernetes",
+
+  "aws": "AWS",
+  "amazon web services": "AWS",
+  "amazon aws": "AWS",
+  "aws cloud": "AWS",
+
+  "azure": "Azure",
+  "microsoft azure": "Azure",
+  "azure cloud": "Azure",
+  "ms azure": "Azure",
+
+  "google cloud": "Google Cloud",
+  "gcp": "Google Cloud",
+  "google cloud platform": "Google Cloud",
+
+  "linux": "Linux",
+  "gnu linux": "Linux",
+  "linux os": "Linux",
+  "linux operating system": "Linux",
+  "linux administration": "Linux",
+
+  "networking": "Networking",
+  "computer networking": "Networking",
+  "networking fundamentals": "Networking",
+  "networking basics": "Networking",
+  "networks": "Networking",
+  "tcp/ip": "Networking",
+  "computer networks": "Networking",
+
+  "network security": "Network Security",
+  "network sec": "Network Security",
+  "network security fundamentals": "Network Security",
+  "netsec": "Network Security",
+
+  "cybersecurity": "Cybersecurity",
+  "cyber security": "Cybersecurity",
+  "cyber-security": "Cybersecurity",
+  "information security": "Cybersecurity",
+  "infosec": "Cybersecurity",
+  "cyber sec": "Cybersecurity",
+  "cybersec": "Cybersecurity",
+
+  "owasp": "OWASP",
+  "owasp top 10": "OWASP",
+  "owasp10": "OWASP",
+  "owasp top10": "OWASP",
+
+  "wireshark": "Wireshark",
+  "wireshark network analysis": "Wireshark",
+  "packet analysis": "Wireshark",
+  "packet sniffing": "Wireshark",
+
+  "cryptography": "Cryptography",
+  "crypto": "Cryptography",
+
+  "web security": "Web Security",
+  "web app security": "Web Security",
+  "web application security": "Web Security",
+
+  "ethical hacking": "Ethical Hacking",
+  "ethical hacker": "Ethical Hacking",
+  "white hat hacking": "Ethical Hacking",
+
+  "penetration testing": "Penetration Testing",
+  "pentesting": "Penetration Testing",
+  "pen testing": "Penetration Testing",
+  "penetration test": "Penetration Testing",
+  "pen test": "Penetration Testing",
+
+  "data structures and algorithms": "Data Structures and Algorithms",
+  "dsa": "Data Structures and Algorithms",
+  "data structures": "Data Structures and Algorithms",
+  "algorithms": "Data Structures and Algorithms",
+  "data structures algorithms": "Data Structures and Algorithms",
+  "data structure and algorithm": "Data Structures and Algorithms",
+  "ds algo": "Data Structures and Algorithms",
+  "ds and algo": "Data Structures and Algorithms",
+  "data structures & algorithms": "Data Structures and Algorithms",
+  "ds & algo": "Data Structures and Algorithms",
+
+  "oop": "OOP",
+  "oops": "OOP",
+  "object oriented programming": "OOP",
+  "object-oriented programming": "OOP",
+  "object oriented": "OOP",
+
+  "problem solving": "Problem Solving",
+  "problem-solving": "Problem Solving",
+  "problem solving skills": "Problem Solving",
+  "competitive programming": "Problem Solving",
+
+  "system design": "System Design",
+  "systems design": "System Design",
+  "low level design": "System Design",
+  "high level design": "System Design",
+  "lld": "System Design",
+  "hld": "System Design",
+
+  "computer architecture": "Computer Architecture",
+  "coa": "Computer Architecture",
+  "computer organization": "Computer Architecture",
+  "computer organization and architecture": "Computer Architecture",
+
+  "operating systems": "Operating Systems",
+  "os": "Operating Systems",
+  "operating system": "Operating Systems",
+
+  "data analysis": "Data Analysis",
+  "data analytics": "Data Analysis",
+  "data analyst skills": "Data Analysis",
+
+  "statistics": "Statistics",
+  "stat": "Statistics",
+  "stats": "Statistics",
+  "statistical analysis": "Statistics",
+  "business statistics": "Statistics",
+
+  "excel": "Excel",
+  "ms excel": "Excel",
+  "microsoft excel": "Excel",
+  "advanced excel": "Excel",
+
+  "data visualization": "Data Visualization",
+  "data viz": "Data Visualization",
+  "data visualisation": "Data Visualization",
+  "data visualisations": "Data Visualization",
+
+  "power bi": "Power BI",
+  "powerbi": "Power BI",
+  "ms power bi": "Power BI",
+
+  "tableau": "Tableau",
+  "tableau desktop": "Tableau",
+
+  "pandas": "Pandas",
+  "python pandas": "Pandas",
+  "pandas python": "Pandas",
+  "pandas library": "Pandas",
+
+  "numpy": "NumPy",
+  "numpy python": "NumPy",
+  "numpy library": "NumPy",
+
+  "matplotlib": "Matplotlib",
+  "matplotlib python": "Matplotlib",
+  "python matplotlib": "Matplotlib",
+
+  "machine learning": "Machine Learning",
+  "ml": "Machine Learning",
+  "machine learning algorithms": "Machine Learning",
+  "applied machine learning": "Machine Learning",
+
+  "deep learning": "Deep Learning",
+  "dl": "Deep Learning",
+  "deep neural networks": "Deep Learning",
+  "neural networks": "Deep Learning",
+
+  "tensorflow": "TensorFlow",
+  "tf": "TensorFlow",
+  "tensorflow 2": "TensorFlow",
+
+  "pytorch": "PyTorch",
+  "torch": "PyTorch",
+
+  "natural language processing": "Natural Language Processing",
+  "nlp": "Natural Language Processing",
+  "text mining": "Natural Language Processing",
+
+  "computer vision": "Computer Vision",
+  "cv": "Computer Vision",
+  "image processing": "Computer Vision",
+
+  "generative ai": "Generative AI",
+  "genai": "Generative AI",
+  "gen ai": "Generative AI",
+  "generative artificial intelligence": "Generative AI",
+  "gen-ai": "Generative AI",
+
+  "ci/cd": "CI/CD",
+  "cicd": "CI/CD",
+  "ci cd": "CI/CD",
+  "ci-cd": "CI/CD",
+  "continuous integration": "CI/CD",
+  "continuous delivery": "CI/CD",
+  "continuous integration and deployment": "CI/CD",
+
+  "jenkins": "Jenkins",
+  "jenkins ci": "Jenkins",
+  "jenkins pipeline": "Jenkins",
+
+  "github actions": "GitHub Actions",
+  "gh actions": "GitHub Actions",
+
+  "terraform": "Terraform",
+  "hashicorp terraform": "Terraform",
+
+  "ansible": "Ansible",
+  "ansible automation": "Ansible",
+
+  "selenium": "Selenium",
+  "selenium webdriver": "Selenium",
+  "selenium testing": "Selenium",
+
+  "software testing": "Software Testing",
+  "testing": "Software Testing",
+  "qa testing": "Software Testing",
+  "qa": "Software Testing",
+  "quality assurance": "Software Testing",
+
+  "unit testing": "Unit Testing",
+  "unit tests": "Unit Testing",
+  "unit test": "Unit Testing",
+
+  "figma": "Figma",
+  "figma design": "Figma",
+  "figma tool": "Figma",
+
+  "ui/ux": "UI/UX",
+  "ui ux": "UI/UX",
+  "ui/ux design": "UI/UX",
+  "ui ux design": "UI/UX",
+  "user interface user experience": "UI/UX",
+  "ui": "UI/UX",
+  "ux": "UI/UX",
+  "user interface design": "UI/UX",
+  "user experience design": "UI/UX",
+
+  "wireframing": "Wireframing",
+  "wireframe": "Wireframing",
+  "wireframes": "Wireframing",
+
+  "prototyping": "Prototyping",
+  "prototype": "Prototyping",
+  "prototypes": "Prototyping",
+  "ui prototyping": "Prototyping"
+}

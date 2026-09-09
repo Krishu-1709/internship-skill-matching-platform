@@ -1,0 +1,626 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>SkillMatch Results</title>
+
+    <link rel="stylesheet" href="/static/style.css">
+
+    <style>
+
+        /* ---------- PAGE ---------- */
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f5f7fb;
+            color: #1f2937;
+        }
+
+        .page {
+            width: 90%;
+            max-width: 1100px;
+            margin: 40px auto;
+        }
+
+
+        /* ---------- HEADER ---------- */
+
+        .header {
+            margin-bottom: 30px;
+        }
+
+        .header h1 {
+            margin-bottom: 8px;
+        }
+
+        .header p {
+            color: #6b7280;
+            margin: 0;
+        }
+
+
+        /* ---------- PROFILE ---------- */
+
+        .profile-card {
+            background: white;
+            padding: 22px;
+            border-radius: 14px;
+            margin-bottom: 30px;
+            box-shadow: 0 3px 12px rgba(0,0,0,0.06);
+        }
+
+        .profile-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 14px;
+        }
+
+        .profile-item {
+            padding: 10px 0;
+        }
+
+        .profile-item strong {
+            display: block;
+            margin-bottom: 4px;
+            color: #374151;
+        }
+
+        .profile-item span {
+            color: #6b7280;
+        }
+
+
+        /* ---------- SECTION ---------- */
+
+        .section {
+            margin-bottom: 35px;
+        }
+
+        .section-title {
+            margin-bottom: 15px;
+        }
+
+        .section-subtitle {
+            color: #6b7280;
+            margin-top: -8px;
+            margin-bottom: 20px;
+        }
+
+
+        /* ---------- ROLE RECOMMENDATIONS ---------- */
+
+        .role-list {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+
+        .role-card {
+            background: white;
+            border-radius: 14px;
+            padding: 18px 20px;
+            display: flex;
+            align-items: flex-start;
+            gap: 18px;
+            box-shadow: 0 3px 12px rgba(0,0,0,0.05);
+        }
+
+        .priority {
+            min-width: 42px;
+            height: 42px;
+            border-radius: 50%;
+            background: #111827;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+        }
+
+        .role-info {
+            flex: 1;
+        }
+
+        .role-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .role-header h3 {
+            margin: 0;
+        }
+
+        .match-score {
+            font-weight: bold;
+            margin: 0;
+        }
+
+        .match-level {
+            font-size: 13px;
+            color: #6b7280;
+            margin-top: 4px;
+        }
+
+        .reason {
+            color: #6b7280;
+            margin: 10px 0;
+        }
+
+
+        /* ---------- SKILLS ---------- */
+
+        .skills-section {
+            margin-top: 12px;
+        }
+
+        .skills-label {
+            font-size: 13px;
+            font-weight: bold;
+            margin-bottom: 6px;
+        }
+
+        .skill {
+            display: inline-block;
+            padding: 5px 9px;
+            margin: 3px 4px 3px 0;
+            border-radius: 7px;
+            font-size: 12px;
+        }
+
+        .matched {
+            background: #ecfdf5;
+            color: #047857;
+        }
+
+        .missing {
+            background: #fff7ed;
+            color: #c2410c;
+        }
+
+
+        /* ---------- READINESS ---------- */
+
+        .readiness-card {
+            background: white;
+            border-radius: 14px;
+            padding: 25px;
+            box-shadow: 0 3px 12px rgba(0,0,0,0.05);
+        }
+
+        .readiness-top {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .readiness-score {
+            font-size: 38px;
+            font-weight: bold;
+        }
+
+        .readiness-role {
+            color: #6b7280;
+        }
+
+        .readiness-columns {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 25px;
+        }
+
+
+        /* ---------- INTERNSHIPS ---------- */
+
+        .internship-list {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 15px;
+        }
+
+        .internship-card {
+            background: white;
+            border-radius: 14px;
+            padding: 20px;
+            box-shadow: 0 3px 12px rgba(0,0,0,0.05);
+        }
+
+        .internship-card h3 {
+            margin-top: 0;
+            margin-bottom: 8px;
+        }
+
+        .company {
+            font-weight: bold;
+        }
+
+        .domain {
+            color: #6b7280;
+            font-size: 14px;
+        }
+
+        .internship-score {
+            font-size: 20px;
+            font-weight: bold;
+            margin: 15px 0;
+        }
+
+        .internship-details {
+            font-size: 14px;
+            color: #6b7280;
+        }
+
+
+        /* ---------- MOBILE ---------- */
+
+        @media (max-width: 700px) {
+
+            .page {
+                width: 94%;
+                margin: 25px auto;
+            }
+
+            .profile-grid,
+            .readiness-columns,
+            .internship-list {
+                grid-template-columns: 1fr;
+            }
+
+            .role-header {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
+        }
+
+    </style>
+
+</head>
+
+
+<body>
+
+<div class="page">
+
+
+    <!-- HEADER -->
+
+    <div class="header">
+
+        <h1>Career Analysis</h1>
+
+        <p>
+            Welcome, {{ name }}. Here are your personalized career recommendations.
+        </p>
+
+    </div>
+
+
+    <!-- PROFILE -->
+
+    <section class="section">
+
+        <div class="profile-card">
+
+            <h2>Your Profile</h2>
+
+            <div class="profile-grid">
+
+                <div class="profile-item">
+
+                    <strong>Education</strong>
+
+                    <span>
+                        {{ education }}
+                    </span>
+
+                </div>
+
+
+                <div class="profile-item">
+
+                    <strong>Target Role</strong>
+
+                    <span>
+                        {{ target_role }}
+                    </span>
+
+                </div>
+
+
+                <div class="profile-item">
+
+                    <strong>Skills</strong>
+
+                    <span>
+                        {{ skills | join(", ") }}
+                    </span>
+
+                </div>
+
+
+                <div class="profile-item">
+
+                    <strong>Interests</strong>
+
+                    <span>
+                        {{ interests }}
+                    </span>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- TOP CAREER RECOMMENDATIONS -->
+
+    <section class="section">
+
+        <h2 class="section-title">
+            Your Top Career Recommendations
+        </h2>
+
+        <p class="section-subtitle">
+            Based on your current skills and profile
+        </p>
+
+
+        <div class="role-list">
+
+            {% for role in role_recommendations %}
+
+            <div class="role-card">
+
+                <div class="priority">
+                    #{{ role.priority }}
+                </div>
+
+
+                <div class="role-info">
+
+                    <div class="role-header">
+
+                        <div>
+
+                            <h3>
+                                {{ role.role }}
+                            </h3>
+
+                            <div class="match-level">
+                                {{ role.level }}
+                            </div>
+
+                        </div>
+
+
+                        <p class="match-score">
+                            {{ role.score }}% Match
+                        </p>
+
+                    </div>
+
+
+                    <p class="reason">
+                        {{ role.reason }}
+                    </p>
+
+
+                    {% if role.matched %}
+
+                    <div class="skills-section">
+
+                        <div class="skills-label">
+                            Skills you have
+                        </div>
+
+                        {% for skill in role.matched %}
+
+                        <span class="skill matched">
+                            ✓ {{ skill }}
+                        </span>
+
+                        {% endfor %}
+
+                    </div>
+
+                    {% endif %}
+
+
+                    {% if role.missing %}
+
+                    <div class="skills-section">
+
+                        <div class="skills-label">
+                            Skills to develop
+                        </div>
+
+                        {% for skill in role.missing %}
+
+                        <span class="skill missing">
+                            {{ skill }}
+                        </span>
+
+                        {% endfor %}
+
+                    </div>
+
+                    {% endif %}
+
+                </div>
+
+            </div>
+
+            {% endfor %}
+
+        </div>
+
+    </section>
+
+
+
+    <!-- CAREER READINESS -->
+
+    <section class="section">
+
+        <h2 class="section-title">
+            Career Readiness
+        </h2>
+
+        <p class="section-subtitle">
+            Your current readiness for your selected target role
+        </p>
+
+
+        <div class="readiness-card">
+
+            <div class="readiness-top">
+
+                <div>
+
+                    <h2>
+                        {{ target_role }}
+                    </h2>
+
+                    <p class="readiness-role">
+                        Based on your current skill set
+                    </p>
+
+                </div>
+
+
+                <div class="readiness-score">
+                    {{ readiness.score }}%
+                </div>
+
+            </div>
+
+
+            <div class="readiness-columns">
+
+
+                <div>
+
+                    <h3>Skills You Have</h3>
+
+                    {% for skill in readiness.matched %}
+
+                    <span class="skill matched">
+                        ✓ {{ skill }}
+                    </span>
+
+                    {% endfor %}
+
+                </div>
+
+
+                <div>
+
+                    <h3>Skills To Develop</h3>
+
+                    {% for skill in readiness.missing %}
+
+                    <span class="skill missing">
+                        ⚠ {{ skill }}
+                    </span>
+
+                    {% endfor %}
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- INTERNSHIPS -->
+
+    <section class="section">
+
+        <h2 class="section-title">
+            Recommended Internships
+        </h2>
+
+        <p class="section-subtitle">
+            Opportunities that match your current skills
+        </p>
+
+
+        <div class="internship-list">
+
+            {% for internship in results %}
+
+            <div class="internship-card">
+
+                <h3>
+                    {{ internship.title }}
+                </h3>
+
+                <p class="company">
+                    {{ internship.company }}
+                </p>
+
+                <p class="domain">
+                    {{ internship.domain }}
+                </p>
+
+
+                <div class="internship-score">
+                    {{ internship.score }}% Match
+                </div>
+
+
+                <div class="internship-details">
+
+                    {% if internship.matched %}
+
+                    <p>
+                        <strong>Matched:</strong>
+                        {{ internship.matched | join(", ") }}
+                    </p>
+
+                    {% endif %}
+
+
+                    {% if internship.missing %}
+
+                    <p>
+                        <strong>Skill gaps:</strong>
+                        {{ internship.missing | join(", ") }}
+                    </p>
+
+                    {% endif %}
+
+                </div>
+
+            </div>
+
+            {% endfor %}
+
+        </div>
+
+    </section>
+
+
+</div>
+
+</body>
+
+</html>
+```

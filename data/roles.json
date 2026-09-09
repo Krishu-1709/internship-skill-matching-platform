@@ -1,0 +1,659 @@
+[
+    {
+        "role": "Cybersecurity Intern",
+        "skills": [
+            "Python",
+            "Linux",
+            "Networking",
+            "OWASP",
+            "Wireshark",
+            "Security"
+        ]
+    },
+    {
+        "role": "Backend Developer Intern",
+        "skills": [
+            "Python",
+            "FastAPI",
+            "SQL",
+            "Git",
+            "REST APIs"
+        ]
+    },
+    {
+        "role": "Data Analyst Intern",
+        "skills": [
+            "Python",
+            "SQL",
+            "Excel",
+            "Statistics",
+            "Data Visualization"
+        ]
+    },
+    {
+        "role": "DevOps Intern",
+        "skills": [
+            "Linux",
+            "Git",
+            "Docker",
+            "CI/CD",
+            "AWS"
+        ]
+    },
+    {
+        "role": "Web Developer Intern",
+        "skills": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "Git",
+            "REST APIs"
+        ]
+    },
+
+    {
+        "role": "Software Developer",
+        "skills": [
+        "Python",
+        "Java",
+        "C++",
+        "Data Structures and Algorithms",
+        "OOP",
+        "Git",
+        "SQL",
+        "Problem Solving"
+        ]
+    },
+    {
+        "role": "Backend Developer",
+        "skills": [
+        "Java",
+        "Python",
+        "REST APIs",
+        "SQL",
+        "PostgreSQL",
+        "Docker",
+        "Git",
+        "Microservices"
+        ]
+    },
+    {
+        "role": "Node.js Backend Developer",
+        "skills": [
+        "Node.js",
+        "Express.js",
+        "JavaScript",
+        "TypeScript",
+        "MongoDB",
+        "REST APIs",
+        "Git"
+        ]
+    },
+    {
+        "role": "Frontend Developer",
+        "skills": [
+        "JavaScript",
+        "TypeScript",
+        "React",
+        "HTML5",
+        "CSS3",
+        "Git",
+        "REST APIs"
+        ]
+    },
+    {
+        "role": "Vue.js Frontend Developer",
+        "skills": [
+        "JavaScript",
+        "TypeScript",
+        "Vue.js",
+        "HTML5",
+        "CSS3",
+        "Git",
+        "REST APIs"
+        ]
+    },
+    {
+        "role": "Angular Frontend Developer",
+        "skills": [
+        "TypeScript",
+        "JavaScript",
+        "Angular",
+        "RxJS",
+        "HTML5",
+        "CSS3",
+        "Git"
+        ]
+    },
+    {
+        "role": "Full Stack Developer",
+        "skills": [
+        "JavaScript",
+        "TypeScript",
+        "React",
+        "Node.js",
+        "SQL",
+        "Git",
+        "Docker",
+        "REST APIs"
+        ]
+    },
+    {
+        "role": "MERN Stack Developer",
+        "skills": [
+        "MongoDB",
+        "Express.js",
+        "React",
+        "Node.js",
+        "JavaScript",
+        "Git",
+        "REST APIs"
+        ]
+    },
+    {
+        "role": "Python Developer",
+        "skills": [
+        "Python",
+        "Django",
+        "FastAPI",
+        "SQL",
+        "REST APIs",
+        "Git",
+        "Docker",
+        "Linux"
+        ]
+    },
+    {
+        "role": "Python Automation Engineer",
+        "skills": [
+        "Python",
+        "Selenium",
+        "Linux",
+        "Bash Scripting",
+        "Git",
+        "REST APIs",
+        "CI/CD"
+        ]
+    },
+    {
+        "role": "Java Developer",
+        "skills": [
+        "Java",
+        "Spring Boot",
+        "SQL",
+        "Hibernate",
+        "Data Structures and Algorithms",
+        "Git",
+        "OOP"
+        ]
+    },
+    {
+        "role": "Java Enterprise Developer",
+        "skills": [
+        "Java",
+        "Spring Boot",
+        "Microservices",
+        "PostgreSQL",
+        "Kafka",
+        "Docker",
+        "Git"
+        ]
+    },
+    {
+        "role": "C++ Systems Engineer",
+        "skills": [
+        "C++",
+        "Data Structures and Algorithms",
+        "Linux",
+        "Memory Management",
+        "Multithreading",
+        "Git",
+        "OOP"
+        ]
+    },
+    {
+        "role": "Embedded C++ Developer",
+        "skills": [
+        "C++",
+        "C",
+        "Linux",
+        "RTOS",
+        "Microcontrollers",
+        "Git",
+        "Hardware Protocols"
+        ]
+    },
+    {
+        "role": "Data Analyst",
+        "skills": [
+        "SQL",
+        "Python",
+        "Excel",
+        "Power BI",
+        "Tableau",
+        "Data Visualization",
+        "Statistics"
+        ]
+    },
+    {
+        "role": "Business Intelligence Analyst",
+        "skills": [
+        "SQL",
+        "Power BI",
+        "Tableau",
+        "Data Warehousing",
+        "ETL",
+        "Excel",
+        "Data Modeling"
+        ]
+    },
+    {
+        "role": "Data Scientist",
+        "skills": [
+        "Python",
+        "SQL",
+        "Machine Learning",
+        "Statistics",
+        "Pandas",
+        "Scikit-Learn",
+        "Git"
+        ]
+    },
+    {
+        "role": "Data Engineer",
+        "skills": [
+        "Python",
+        "SQL",
+        "Apache Spark",
+        "Kafka",
+        "ETL",
+        "Data Warehousing",
+        "Git",
+        "Linux"
+        ]
+    },
+    {
+        "role": "Machine Learning Engineer",
+        "skills": [
+        "Python",
+        "Machine Learning",
+        "PyTorch",
+        "TensorFlow",
+        "Scikit-Learn",
+        "Docker",
+        "Git",
+        "Linux"
+        ]
+    },
+    {
+        "role": "MLOps Engineer",
+        "skills": [
+        "Python",
+        "Machine Learning",
+        "Docker",
+        "Kubernetes",
+        "CI/CD",
+        "MLflow",
+        "Linux",
+        "Git"
+        ]
+    },
+    {
+        "role": "AI Engineer",
+        "skills": [
+        "Python",
+        "Deep Learning",
+        "Large Language Models",
+        "PyTorch",
+        "Prompt Engineering",
+        "LangChain",
+        "Git"
+        ]
+    },
+    {
+        "role": "Computer Vision Engineer",
+        "skills": [
+        "Python",
+        "OpenCV",
+        "Deep Learning",
+        "PyTorch",
+        "C++",
+        "TensorFlow",
+        "Git"
+        ]
+    },
+    {
+        "role": "NLP Engineer",
+        "skills": [
+        "Python",
+        "PyTorch",
+        "Natural Language Processing",
+        "Transformers",
+        "Deep Learning",
+        "Git",
+        "Scikit-Learn"
+        ]
+    },
+    {
+        "role": "Cybersecurity Analyst",
+        "skills": [
+        "Networking",
+        "Linux",
+        "OWASP",
+        "Vulnerability Assessment",
+        "SIEM",
+        "Python",
+        "Security"
+        ]
+    },
+    {
+        "role": "Penetration Tester",
+        "skills": [
+        "OWASP",
+        "Kali Linux",
+        "Networking",
+        "Burp Suite",
+        "Python",
+        "Metasploit",
+        "Vulnerability Assessment"
+        ]
+    },
+    {
+        "role": "Security Operations Center Analyst",
+        "skills": [
+        "SIEM",
+        "Incident Response",
+        "Networking",
+        "Wireshark",
+        "Linux",
+        "Threat Detection",
+        "Security"
+        ]
+    },
+    {
+        "role": "Application Security Engineer",
+        "skills": [
+        "OWASP",
+        "Application Security",
+        "Python",
+        "Java",
+        "Git",
+        "CI/CD",
+        "Cryptography"
+        ]
+    },
+    {
+        "role": "Network Security Engineer",
+        "skills": [
+        "Networking",
+        "Firewalls",
+        "Wireshark",
+        "Linux",
+        "VPN Architecture",
+        "Network Protocols",
+        "Security"
+        ]
+    },
+    {
+        "role": "Network Engineer",
+        "skills": [
+        "Networking",
+        "TCP/IP",
+        "Routing and Switching",
+        "Cisco IOS",
+        "Linux",
+        "Wireshark",
+        "Python"
+        ]
+    },
+    {
+        "role": "DevOps Engineer",
+        "skills": [
+        "Linux",
+        "Docker",
+        "Kubernetes",
+        "CI/CD",
+        "AWS",
+        "Git",
+        "Bash Scripting",
+        "Terraform"
+        ]
+    },
+    {
+        "role": "Site Reliability Engineer",
+        "skills": [
+        "Linux",
+        "Python",
+        "Kubernetes",
+        "Docker",
+        "Monitoring/Prometheus",
+        "CI/CD",
+        "Networking"
+        ]
+    },
+    {
+        "role": "Build and Release Engineer",
+        "skills": [
+        "CI/CD",
+        "Git",
+        "Jenkins",
+        "Linux",
+        "Docker",
+        "Bash Scripting",
+        "Python"
+        ]
+    },
+    {
+        "role": "Cloud Engineer",
+        "skills": [
+        "AWS",
+        "Linux",
+        "Terraform",
+        "Docker",
+        "Networking",
+        "Python",
+        "Cloud Architecture"
+        ]
+    },
+    {
+        "role": "AWS Cloud Architect",
+        "skills": [
+        "AWS",
+        "Cloud Architecture",
+        "Terraform",
+        "Networking",
+        "Docker",
+        "Security",
+        "Linux"
+        ]
+    },
+    {
+        "role": "Azure Cloud Engineer",
+        "skills": [
+        "Azure",
+        "Terraform",
+        "Linux",
+        "Docker",
+        "PowerShell",
+        "Networking",
+        "CI/CD"
+        ]
+    },
+    {
+        "role": "Mobile Developer",
+        "skills": [
+        "Flutter",
+        "Dart",
+        "REST APIs",
+        "Git",
+        "Mobile UI Design",
+        "OOP"
+        ]
+    },
+    {
+        "role": "React Native Developer",
+        "skills": [
+        "JavaScript",
+        "TypeScript",
+        "React Native",
+        "React",
+        "REST APIs",
+        "Git",
+        "Mobile UI Design"
+        ]
+    },
+    {
+        "role": "Android Developer",
+        "skills": [
+        "Kotlin",
+        "Java",
+        "Android SDK",
+        "REST APIs",
+        "Git",
+        "Data Structures and Algorithms",
+        "OOP"
+        ]
+    },
+    {
+        "role": "iOS Developer",
+        "skills": [
+        "Swift",
+        "iOS SDK",
+        "Xcode",
+        "REST APIs",
+        "Git",
+        "Data Structures and Algorithms",
+        "OOP"
+        ]
+    },
+    {
+        "role": "QA Engineer",
+        "skills": [
+        "Manual Testing",
+        "Test Automation",
+        "Selenium",
+        "Python",
+        "SQL",
+        "Jira",
+        "Git"
+        ]
+    },
+    {
+        "role": "QA Automation Engineer",
+        "skills": [
+        "Selenium",
+        "Python",
+        "Java",
+        "TestNG",
+        "CI/CD",
+        "Git",
+        "REST APIs"
+        ]
+    },
+    {
+        "role": "Performance Test Engineer",
+        "skills": [
+        "JMeter",
+        "Performance Testing",
+        "Linux",
+        "SQL",
+        "Docker",
+        "Python",
+        "Monitoring/Prometheus"
+        ]
+    },
+    {
+        "role": "API Test Engineer",
+        "skills": [
+        "Postman",
+        "REST APIs",
+        "JavaScript",
+        "Python",
+        "Git",
+        "CI/CD",
+        "JSON"
+        ]
+    },
+    {
+        "role": "Database Administrator",
+        "skills": [
+        "SQL",
+        "PostgreSQL",
+        "MySQL",
+        "Database Optimization",
+        "Linux",
+        "Database Backup/Recovery",
+        "Bash Scripting"
+        ]
+    },
+    {
+        "role": "SQL Developer",
+        "skills": [
+        "SQL",
+        "PostgreSQL",
+        "T-SQL",
+        "Database Optimization",
+        "Stored Procedures",
+        "ETL",
+        "Git"
+        ]
+    },
+    {
+        "role": "NoSQL Database Engineer",
+        "skills": [
+        "MongoDB",
+        "Redis",
+        "NoSQL",
+        "Linux",
+        "Docker",
+        "Python",
+        "Database Optimization"
+        ]
+    },
+    {
+        "role": "UI/UX Designer",
+        "skills": [
+        "Figma",
+        "Wireframing",
+        "Prototyping",
+        "User Research",
+        "Design Systems",
+        "Usability Testing"
+        ]
+    },
+    {
+        "role": "UX Researcher",
+        "skills": [
+        "User Research",
+        "Usability Testing",
+        "Wireframing",
+        "Information Architecture",
+        "Figma",
+        "User Interviews"
+        ]
+    },
+    {
+        "role": "Product Designer",
+        "skills": [
+        "Figma",
+        "Product Strategy",
+        "Prototyping",
+        "Design Systems",
+        "Wireframing",
+        "HTML5",
+        "CSS3"
+        ]
+    },
+    {
+        "role": "Systems Administrator",
+        "skills": [
+        "Linux",
+        "Bash Scripting",
+        "Networking",
+        "Docker",
+        "Troubleshooting",
+        "Security",
+        "Firewalls"
+        ]
+    }
+]

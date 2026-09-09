@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SkillMatch</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>SkillMatch</h1>
+    <p>Find internships based on your skills.</p>
+
+    <form action="/analyze" method="post">
+
+    <label>Name</label>
+        <input
+            type="text"
+            name="name"
+            placeholder="Enter your name"
+            required
+        >
+
+    <label>Education</label>
+        <input
+            type="text"
+            name="education"
+            placeholder="B.Tech CSE"
+            required
+        >
+
+    <label>Your Skills</label>
+        <input
+            type="text"
+            name="skills"
+            placeholder="Python, Linux, SQL, FastAPI"
+            required
+        >
+
+    <label>Interests</label>
+        <input
+            type="text"
+            name="interests"
+            placeholder="Cybersecurity"
+            required
+        >
+<!-- 
+    <label for="target_role">Target Role</label>
+
+    <select id="target_role" name="target_role" required>
+
+        <option value="" disabled selected>
+            Select your target role
+        </option>
+
+        {% for role in roles %}
+            <option value="{{ role.role }}">
+                {{ role.role }}
+            </option>
+        {% endfor %}
+
+    </select> -->
+    <label for="role_search">Target Role</label>
+
+<div class="role-selector">
+
+    <input
+        type="text"
+        id="role_search"
+        placeholder="Search for a role..."
+        autocomplete="off"
+    >
+
+    <input
+        type="hidden"
+        id="target_role"
+        name="target_role"
+        required
+    >
+
+    <div id="role_dropdown" class="role-dropdown">
+
+        {% for role in roles %}
+
+            <div
+                class="role-option"
+                data-role="{{ role.role }}"
+            >
+                {{ role.role }}
+            </div>
+
+        {% endfor %}
+
+    </div>
+
+</div>
+
+        <button type="submit">
+            Find Internships
+        </button>
+
+    </form>
+
+</div>
+
+</body>
+</html>
+<script>
+
+    const roleSearch = document.getElementById("role_search");
+    const targetRole = document.getElementById("target_role");
+    const roleDropdown = document.getElementById("role_dropdown");
+    const roleOptions = document.querySelectorAll(".role-option");
+
+
+    // Show dropdown when user clicks the search box
+    roleSearch.addEventListener("focus", function () {
+
+        roleDropdown.style.display = "block";
+
+        filterRoles();
+
+    });
+
+
+    // Search roles
+    roleSearch.addEventListener("input", function () {
+
+        filterRoles();
+
+        // Clear previously selected role
+        targetRole.value = "";
+
+    });
+
+
+    function filterRoles() {
+
+        const searchText = roleSearch.value.toLowerCase().trim();
+
+        let visibleRoles = 0;
+
+        roleOptions.forEach(function(option) {
+
+            const roleName = option.dataset.role.toLowerCase();
+
+            if (roleName.includes(searchText)) {
+
+                option.style.display = "block";
+                visibleRoles++;
+
+            } else {
+
+                option.style.display = "none";
+
+            }
+
+        });
+
+        roleDropdown.style.display = "block";
+    }
+
+
+    // Select a role
+    roleOptions.forEach(function(option) {
+
+        option.addEventListener("click", function() {
+
+            const selectedRole = option.dataset.role;
+
+            roleSearch.value = selectedRole;
+
+            targetRole.value = selectedRole;
+
+            roleDropdown.style.display = "none";
+
+        });
+
+    });
+
+
+    // Close dropdown when clicking outside
+    document.addEventListener("click", function(event) {
+
+        if (!event.target.closest(".role-selector")) {
+
+            roleDropdown.style.display = "none";
+
+        }
+
+    });
+
+</script>
